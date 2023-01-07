@@ -1,0 +1,28 @@
+{
+  "name": "@rajesh-pandian-1988/learn-npm-github-packages",
+  "version": "1.0.1",
+  "description": "This project is to learn how to create an NPM package and publish it in GitHub Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajesh-pandian-1988/learn-npm-github-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Rajesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajesh-pandian-1988/learn-npm-github-packages/issues"
+  },
+  "homepage": "https://github.com/rajesh-pandian-1988/learn-npm-github-packages#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
